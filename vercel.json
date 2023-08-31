@@ -1,10 +1,5 @@
 {
-  "routes": [ 
-   { "src":"/"
-    "dest":"/"
-   },
-{ "src":"/a_dcb"
-    "dest":"/"
-   }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
